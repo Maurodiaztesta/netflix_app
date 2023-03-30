@@ -1,0 +1,11 @@
+.categorias{
+    &__titulo{
+        margin: 20px 0px 20px 20px;
+        font-weight: 300;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+}

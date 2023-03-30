@@ -1,0 +1,6 @@
+<div class="populares">
+    <h2 class="populares__titulo">{{categorias.section}}</h2>
+    <ng-container *ngFor="let item of categorias.films">
+        <app-film class="populares__img" [pelicula]="item"></app-film>
+    </ng-container>
+</div>

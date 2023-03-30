@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        &--img{
+            width: 80px;
+            margin: 10px;
+        }
+    }
+    &__anchords{
+        margin-right: 40px;
+        &--inicio{
+            margin: 10px;
+        }
+        &--buscar{
+            margin: 10px;
+        }
+    }
+}
